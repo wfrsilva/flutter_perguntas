@@ -6,58 +6,63 @@ void main() {
   runApp(PerguntaApp());
 }
 
-class _PerguntaAppState extends State<PerguntaApp>{
+class _PerguntaAppState extends State<PerguntaApp> {
   var _perguntaSelecionada = 0;
-  void _responder(){
-    setState(() {
-      _perguntaSelecionada++;
-    });
-  }//_responder
+
+  final _perguntas = const [
+    {
+      'texto': 'Qual é a sua cor favorita?',
+      'respostas': ['Preto', 'Vermelho', 'Verde', 'Branco']
+    },
+    {
+      'texto': 'Qual é seu animal favorito?',
+      'respostas': ['Coelho', 'Cobra', 'Elefante', 'Leão']
+    },
+    {
+      'texto': 'Qual é seu instrutor favorito?',
+      'respostas': ['Maria', 'João', 'Leo', 'Pedro']
+    },
+  ];
+
+  void _responder() {
+    if (temPerguntaSelecionada) {
+      setState(() {
+        _perguntaSelecionada++;
+      });
+    } //if
+  } //_responder
+
+  bool get temPerguntaSelecionada {
+    return _perguntaSelecionada < _perguntas.length;
+  } //temPerguntaSelecionada
 
   @override
   Widget build(BuildContext context) {
-    final List<Map<String, Object>> perguntas = [
-      {
-        'texto':'Qual é a sua cor favorita?',
-        'respostas':['Preto','Vermelho','Verde','Branco']
-      },
-      {
-      'texto':'Qual é seu animal favorito?',
-      'respostas':['Coelho','Cobra','Elefante','Leão']
-      },
-      {
-      'texto':'Qual é seu instrutor favorito?',
-      'respostas':['Maria','João','Leo','Pedro']
-      },
-    ];
-    List <Widget> respostas = [];
-
-    for(String textoResp in perguntas[_perguntaSelecionada]['respostas']){
-      respostas.add(Resposta(textoResp, _responder));
-    }//for
+    List<String> respostas = temPerguntaSelecionada
+        ? _perguntas[_perguntaSelecionada]['respostas']
+        : null;
 
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Perguntas'),
-        ),
-        body: Column(
-          children: <Widget>[
-            Questao(perguntas[_perguntaSelecionada]['texto']),
-            ...respostas,
-          ],
-        ),
-      )
-    );
-  }//build
+        home: Scaffold(
+      appBar: AppBar(
+        title: Text('Perguntas'),
+      ),
+      body: temPerguntaSelecionada
+          ? Column(
+              children: <Widget>[
+                Questao(_perguntas[_perguntaSelecionada]['texto']),
+                ...respostas.map((t) => Resposta(t, _responder)).toList(),
+              ],
+            )
+          : Center(child: Text('Parabéns!', style: TextStyle(fontSize: 28))),
+    ));
+  } //build
 
-}//PerguntaAppState
+} //PerguntaAppState
 
 class PerguntaApp extends StatefulWidget {
-  
-  _PerguntaAppState createState(){
+  _PerguntaAppState createState() {
     return _PerguntaAppState();
-  }// createState
+  } // createState
 
-}//PerguntaApp
-
+} //PerguntaApp
