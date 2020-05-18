@@ -6,7 +6,7 @@ import 'package:flutter_perguntas/resposta.dart';
 class Questionario  extends StatelessWidget {
   final List<Map<String, Object>> perguntas;
   final int perguntaSelecionada;
-  final void Function() quandoResponder;
+  final void Function(int) quandoResponder;
 
   Questionario({
     @required this.perguntas,
@@ -26,8 +26,13 @@ class Questionario  extends StatelessWidget {
     return Column(
       children: <Widget>[
         Questao(perguntas[perguntaSelecionada]['texto']),
-        ...respostas.map((resp)=> Resposta(resp['texto'], quandoResponder))
-        .toList(),
+        ...respostas
+        .map((resp){
+          return Resposta(
+            resp['texto'], 
+            () => quandoResponder(resp['pontuacao']),
+          );
+        }).toList(),
 
       ],
     );
