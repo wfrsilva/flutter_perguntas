@@ -1,0 +1,198 @@
+2020-05-18 02:01:57,440 [ 348073]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:01:58,275 [ 348908]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:01:58,698 [ 349331]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:00,579 [ 351212]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:02,100 [ 352733]   WARN - n.process.BaseOSProcessHandler - Process hasn't generated any output for a long time.
+If it's a long-running mostly idle daemon process, consider overriding OSProcessHandler#readerOptions with 'BaseOutputReader.Options.forMostlySilentProcess()' to reduce CPU usage.
+Command line: /home/wendel/Android/Sdk/emulator/emulator -netdelay none -netspeed full -avd Pixel_2_API_25 
+java.lang.Throwable: Process creation:
+	at com.intellij.execution.process.BaseOSProcessHandler.<init>(BaseOSProcessHandler.java:33)
+	at com.android.tools.idea.avdmanager.EmulatorProcessHandler.<init>(EmulatorProcessHandler.java:45)
+	at com.android.tools.idea.avdmanager.EmulatorRunner.start(EmulatorRunner.java:57)
+	at com.android.tools.idea.avdmanager.AvdManagerConnection.startAvd(AvdManagerConnection.java:419)
+	at com.android.tools.idea.avdmanager.AvdManagerConnection.startAvd(AvdManagerConnection.java:358)
+	at com.android.tools.idea.avdmanager.RunAvdAction.actionPerformed(RunAvdAction.java:36)
+	at com.android.tools.idea.avdmanager.AvdUiAction.hyperlinkUpdate(AvdUiAction.java:127)
+	at com.intellij.ui.HyperlinkLabel.fireHyperlinkEvent(HyperlinkLabel.java:218)
+	at com.intellij.ui.HyperlinkLabel.processMouseEvent(HyperlinkLabel.java:141)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6396)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5007)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4839)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4839)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2020-05-18 02:02:02,148 [ 352781]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:03,401 [ 354034]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:04,061 [ 354694]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:04,658 [ 355291]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:05,909 [ 356542]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:06,640 [ 357273]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:07,168 [ 357801]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:08,420 [ 359053]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:09,109 [ 359742]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:09,672 [ 360305]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:10,923 [ 361556]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:11,662 [ 362295]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:12,179 [ 362812]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:13,430 [ 364063]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:14,131 [ 364764]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:14,686 [ 365319]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:15,937 [ 366570]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:16,570 [ 367203]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:17,190 [ 367823]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:17,507 [ 368140]   WARN - dea.sdk.SystemInfoStatsMonitor - CpuInfoFlags.fromExitCode(): unknown flag values '0x80' 
+2020-05-18 02:02:18,442 [ 369075]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:19,134 [ 369767]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:19,697 [ 370330]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:20,948 [ 371581]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:21,602 [ 372235]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:22,217 [ 372850]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:23,473 [ 374106]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:24,127 [ 374760]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:24,733 [ 375366]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:25,984 [ 376617]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:26,703 [ 377336]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:27,239 [ 377872]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:28,490 [ 379123]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:29,090 [ 379723]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:29,746 [ 380379]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:31,000 [ 381633]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:31,628 [ 382261]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:32,251 [ 382884]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:33,502 [ 384135]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:34,253 [ 384886]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:34,754 [ 385387]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:36,005 [ 386638]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:36,717 [ 387350]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:37,259 [ 387892]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:38,510 [ 389143]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:39,664 [ 390297]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:40,228 [ 390861]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:41,479 [ 392112]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:42,108 [ 392741]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:42,735 [ 393368]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:43,986 [ 394619]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:44,595 [ 395228]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:45,243 [ 395876]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:46,494 [ 397127]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:47,185 [ 397818]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:47,746 [ 398379]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:48,997 [ 399630]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:49,775 [ 400408]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:50,261 [ 400894]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:51,512 [ 402145]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:52,238 [ 402871]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:52,764 [ 403397]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:54,016 [ 404649]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:54,693 [ 405326]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:55,272 [ 405905]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:56,524 [ 407157]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:57,255 [ 407888]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:02:57,779 [ 408412]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:59,030 [ 409663]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:02:59,757 [ 410390]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:00,291 [ 410924]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:01,543 [ 412176]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:02,262 [ 412895]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:02,801 [ 413434]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:04,053 [ 414686]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:04,675 [ 415308]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:05,310 [ 415943]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:06,562 [ 417195]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:07,195 [ 417828]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:07,817 [ 418450]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:09,068 [ 419701]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:09,807 [ 420440]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:10,319 [ 420952]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:11,571 [ 422204]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:12,249 [ 422882]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:12,836 [ 423469]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:14,154 [ 424787]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:14,714 [ 425347]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:15,411 [ 426044]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:16,661 [ 427294]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:17,370 [ 428003]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:17,922 [ 428555]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:19,177 [ 429810]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:19,867 [ 430500]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:20,428 [ 431061]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:21,681 [ 432314]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:22,427 [ 433060]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:22,932 [ 433565]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:24,184 [ 434817]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:24,894 [ 435527]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:25,436 [ 436069]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:26,687 [ 437320]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:27,471 [ 438104]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:27,942 [ 438575]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:29,194 [ 439827]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:29,846 [ 440479]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:30,456 [ 441089]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:31,707 [ 442340]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:32,402 [ 443035]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:32,961 [ 443594]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:34,212 [ 444845]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:34,905 [ 445538]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:35,468 [ 446101]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:36,719 [ 447352]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:37,370 [ 448003]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:37,973 [ 448606]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:39,224 [ 449857]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:39,851 [ 450484]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:40,476 [ 451109]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:41,727 [ 452360]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:42,405 [ 453038]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:42,989 [ 453622]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:44,241 [ 454874]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:45,032 [ 455665]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:45,492 [ 456125]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:46,743 [ 457376]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:47,379 [ 458012]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:48,390 [ 459023]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:49,643 [ 460276]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:50,326 [ 460959]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:50,903 [ 461536]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:52,154 [ 462787]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:52,764 [ 463397]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:53,410 [ 464043]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:54,660 [ 465293]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:55,283 [ 465916]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:55,917 [ 466550]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:57,169 [ 467802]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:57,821 [ 468454]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:03:58,420 [ 469053]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:03:59,671 [ 470304]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:04:00,301 [ 470934]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:04:00,929 [ 471562]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:04:02,180 [ 472813]   WARN - ger.EmulatorConnectionListener - Emulator not ready yet, dev.bootcomplete = null 
+2020-05-18 02:04:02,976 [ 473609]   WARN -            #com.android.ddmlib - ShellCommandUnresponsiveException getting properties for device emulator-5554: null 
+2020-05-18 02:04:03,180 [ 473813]   WARN - ger.EmulatorConnectionListener - Timed out after 300seconds waiting for emulator to come online. 
+2020-05-18 02:10:42,443 [ 873076]   WARN - vdmanager.AvdManagerConnection - AVD not launched because an instance appears to be running on PID 21678 
+2020-05-18 02:10:42,520 [ 873153]   WARN - vdmanager.AvdManagerConnection - AVD process info: [  21678 wendel    127 pts/1    Sl+  00:16:05       12:35 /home/wendel/Android/Sdk/emulator/qemu/linux-x86_64/qemu-system-aarch64 -netdelay none -netspeed full -avd Pixel_2_API_25] 
